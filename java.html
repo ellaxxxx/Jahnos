@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Javascript</h1>
+    <p id="demo"></p>
+    <p id="Solo"></p>
+    <p id="Sol"></p>
+    <p onclick="mywork()">click again</p>
+
+    <button onclick="myfunction()">Click to taste your code</button><br>
+    
+
+    <button onclick="stylefunction()">change color></button>
+    <p id="Style-demo">This content color will change</p>
+    
+    <script>
+
+        document.getElementById("demo").innerText="My Firts Js"
+        document.getElementById("Solo").innerHTML="How Are You Doing?"
+        
+        function myfunction(){
+        document.getElementById("Sol").innerHTML="I'm a programmer"
+        }
+        function mywork(){
+        document.getElementById("Sol").innerHTML="My name is solomon"
+        }
+
+        function stylefunction(){
+        document.getElementById("Style-demo").style.color="Red"
+        }
+        
+        
+
+
+
+
+
+
+    </script>
+    
+    
+</body>
+</html>
